@@ -25,3 +25,8 @@
 - iOS : GameServiceIOS
 ## 9. InappManager
 > 인앱 결제 관련 매니저.
+
+
+*****
+
+전반적인 분석 문서로 [돌아가기](https://github.com/Bo-sung/BBF_-/blob/master/전반적인_분석.md)
