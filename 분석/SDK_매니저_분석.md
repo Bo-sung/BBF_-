@@ -1,8 +1,7 @@
-SDK 매니저 목록
+# SDK 매니저 목록
     1. IOSATTManager
         IOS에서 App Tracking Transparency를 위한 매니저
-        ATT(App Tracking Transparency)란?
-            https://www.adjust.com/ko/glossary/apptrackingtransparency-att/
+        ATT(App Tracking Transparency)란? [링크](https://www.adjust.com/ko/glossary/apptrackingtransparency-att/)
     2. AppsflyerManager
         AppsFlyer 관리를 위한 매니저
     3. AnalyticsManager
