@@ -147,3 +147,7 @@ https://developers.is.com/ironsource-mobile/android/banner-integration-android/#
 [↩](#a2)<br>
 
 <br>
+
+
+------
+전반적인 분석 [문서로](/전반적인_분석.md)
