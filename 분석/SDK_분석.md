@@ -84,4 +84,4 @@ https://developers.is.com/ironsource-mobile/android/banner-integration-android/#
 
 
 ------
-메인페이지로 [돌아가기](/메인페이지.md)
+메인페이지로 [돌아가기](/README.md)
