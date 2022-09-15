@@ -26,6 +26,10 @@
 ## 9. InappManager
 > 인앱 결제 관련 매니저.
 
+## 10. GameBaseManager
+> 게임베이스 매니저  
+> [링크로]()
+
 
 *****
 
