@@ -26,19 +26,19 @@
 [코드](/분석/Code/SDKSetting.cs)
 
 # SDK 사용처 및 대체 여부  
-| SDK | 사용처 | 상태 | 대체제 |비고|
-|----|----|----|----|----|
-|파이어베이스 애널리틱스|레벨 및 아이템 로그 저장 및 전송|대체 예정|게임베이스|-|   
-|파이어베이스 크래쉬리틱스| 크래시 및 로그 저장 및 전송|제거 예정|-|-|  
-|GPGS(구글 플레이 게임 서비스)| 안드로이드 플랫폼상 게임 진행 정보 저장 및 랭킹 표시를 위해 필수적| 활성화|-|IOS 플랫폼을 위한 대체제 추가 필요.|     
-|애드몹 네이티브| 설정 및 종료창 배너|대체 혹은 제거 예정|아이언소스|아이언소스에 MREC가 있지만 유니티 Ads가 지원하지 않음.|  
-|페이스북|사용위치 없음|제거|-|-|
-|MAX|배너/전면광고/보상형 광고|대체 예정|아이언소스|-|
-|OneSignal|푸시알림 및 푸시 송수신|대체 예정|게임베이스|-|
-|Appsflyer|결제/광고 정보 전송|유지 혹은 대체 예정|게임베이스|게임베이스로 대체 가능하지만 기능적인 차이 존재|
-|GameAnalyticsSDK| 레벨 및 아이템 로그 저장 및 전송| 대체 예정| 게임베이스| 전달받은 메일에 미포함되어있음.|
-|GameBase|푸시알림,매출통계,소셜로그인,|추가중|-|추가작업중|
-|IronSource|전면/배너/리워드광고|추가중|-|-|
+| SDK                 | 사용처                                    | 상태          | 대체제   | 비고                                 |     |
+| ------------------- | -------------------------------------- | ----------- | ----- | ---------------------------------- | --- |
+| 파이어베이스 애널리틱스        | 레벨 및 아이템 로그 저장 및 전송                    | 대체 예정       | 게임베이스 | -                                  |     |
+| 파이어베이스 크래쉬리틱스       | 크래시 및 로그 저장 및 전송                       | 제거 예정       | -     | -                                  |     |
+| GPGS(구글 플레이 게임 서비스) | 안드로이드 플랫폼상 게임 진행 정보 저장 및 랭킹 표시를 위해 필수적 | 활성화         | -     | IOS 플랫폼을 위한 대체제 추가 필요.             |     |
+| 애드몹 네이티브            | 설정 및 종료창 배너                            | 대체 혹은 제거 예정 | 아이언소스 | 아이언소스에 MREC가 있지만 유니티 Ads가 지원하지 않음. |     |
+| 페이스북                | 사용위치 없음                                | 제거          | -     | -                                  |     |
+| MAX                 | 배너/전면광고/보상형 광고                         | 대체 예정       | 아이언소스 | -                                  |     |
+| OneSignal           | 푸시알림 및 푸시 송수신                          | 대체 예정       | 게임베이스 | -                                  |     |
+| Appsflyer           | 결제/광고 정보 전송                            | 유지 혹은 대체 예정 | 게임베이스 | 게임베이스로 대체 가능하지만 기능적인 차이 존재         |     |
+| GameAnalyticsSDK    | 레벨 및 아이템 로그 저장 및 전송                    | 대체 예정       | 게임베이스 | 전달받은 메일에 미포함되어있음.                  |     |
+| GameBase            | 푸시알림,매출통계,소셜로그인,                       | 추가중         | -     | 추가작업중                              |     |
+| IronSource          | 전면/배너/리워드광고                            | 추가중         | -     | -                                  |     |
 
 *****
 
@@ -62,20 +62,21 @@
 https://developers.is.com/ironsource-mobile/android/banner-integration-android/#step-4..[↩](#a1)<br>
 
 <b id="2"><sup>표</sup></b> 
-|     |BANNER|LARGE|RECTANGLE|SMART|   
-|---|---|---|---|---|   
-|ironSource |   Banner  |   Large Banner    |   Medium Rectangle    |   Banner / Leaderboard    |  
-|AdColony   |   Banner  |   Banner  |   Medium Rectangle 	|   Banner / Leaderboard    |
-|AdMob      |   Banner  | 	Large Banner*   | 	Medium Rectangle    |   Banner / Leaderboard    |
-|AppLovin   | 	Banner  | 	Banner  |   Medium Rectangle    |   Banner / Leaderboard    |
-|Chartboost | 	Banner  | 	Banner  |	Medium Rectangle    | 	Leaderboard |
-|Meta Audience Network| Banner  |   Large Banner    |   Medium Rectangle    |   Banner / Leaderboard    |  
-|Digital Turbine|   Banner  |   Banner  |   Medium Rectangle    |   Banner / Leaderboard    |
-|HyprMX     | 	Banner  | – |   Medium Rectangle    |   Banner / Leaderboard    |  
-|InMobi     |   Banner  |   Banner  |   Medium Rectangle    |   Banner / Leaderboard|  
-|Smaato     | 	Banner  |   –   |   Medium Rectangle    |   Banner / –  |  
-|UnityAds   | 	Banner  |   Banner  |   –   |   Banner / Leaderboard    |
-|Vungle     | 	Banner  | 	Banner  | 	Medium Rectangle    |   Banner / Leaderboard|
+
+| -                     | BANNER | LARGE         | RECTANGLE        | SMART                |     |
+| --------------------- | ------ | ------------- | ---------------- | -------------------- | --- |
+| ironSource            | Banner | Large Banner  | Medium Rectangle | Banner / Leaderboard |     |
+| AdColony              | Banner | Banner        | Medium Rectangle | Banner / Leaderboard |     |
+| AdMob                 | Banner | Large Banner* | Medium Rectangle | Banner / Leaderboard |     |
+| AppLovin              | Banner | Banner        | Medium Rectangle | Banner / Leaderboard |     |
+| Chartboost            | Banner | Banner        | Medium Rectangle | Leaderboard          |     |
+| Meta Audience Network | Banner | Large Banner  | Medium Rectangle | Banner / Leaderboard |     |
+| Digital Turbine       | Banner | Banner        | Medium Rectangle | Banner / Leaderboard |     |
+| HyprMX                | Banner | –             | Medium Rectangle | Banner / Leaderboard |     |
+| InMobi                | Banner | Banner        | Medium Rectangle | Banner / Leaderboard |     |
+| Smaato                | Banner | –             | Medium Rectangle | Banner / –           |     |
+| UnityAds              | Banner | Banner        | –                | Banner / Leaderboard |     |
+| Vungle                | Banner | Banner        | Medium Rectangle | Banner / Leaderboard |     |
 
 [↩](#a2)<br>
 
